@@ -1,4 +1,4 @@
-export default async function callWeatherAPI(city) {
+export default async function fetchWeatherData(city) {
   const response = await fetch(
     `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}/today?key=YOUR_API_KEY`,
     {
